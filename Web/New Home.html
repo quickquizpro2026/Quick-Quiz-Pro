@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz - Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/New.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter Tight', sans-serif;
+            background-color: #ffffff;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 1rem 0;
+			border-radius: 50px;
+			margin-left: 20px;
+			margin-top: 10px;
+			margin-right: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .hero-section {
+            padding: 100px 0 60px;
+            background-color: #f8f9fa;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        .features-section {
+            padding: 80px 0;
+        }
+        .card {
+            border: none;
+            transition: transform 0.3s;
+            margin-bottom: 2rem;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            height: 220px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #232323;
+            color: #ffffff;
+            padding: 60px 0 30px;
+        }
+        .footer a {
+            color: #ff3366;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        .btn-primary {
+            background-color: #0d6efd;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+        }
+		.btn btn-dark{
+			border-radius: 40px;
+		}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-primary" href="New Home.html">Quick Quiz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="Exam Paper.html">Exam Papers</a></li>
+                <li class="nav-item"><a class="nav-link" href="Schedule.html">Schedule</a></li>
+            </ul>
+            <a href="About_Us.html" class="btn btn-dark">About us</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="display-3 fw-bold mb-4">Quick Quiz</h1>
+                <p class="lead mb-4">
+                    Welcome to Quick Quiz!<br>
+                    You can improve your talent sharper and sharper with this website.<br>
+                    Daily practicing can get you more skills.
+                </p>
+                <img src= "images/Blue Simple Productivity Presentation (1).jpg.jpeg" alt="Hero Image" class="hero-image shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features-section">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src= "images/unwatermarked_Gemini_Generated_Image_rw6siirw6siirw6s.png" class="card-img-top" alt="Exam Papers">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Exam Papers</h5>
+                        <p class="card-text">You can customize your Past paper, Model paper or Target paper and Do it now.</p>
+                        <a href="Exam Paper.html" class="btn btn-primary mt-3">Create Paper</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/unwatermarked_Gemini_Generated_Image_ckq6qdckq6qdckq6.png" class="card-img-top" alt="Schedule">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Schedule Works</h5>
+                        <p class="card-text">Schedule your study time and paper to do now or do it later.</p>
+                        <a href="Schedule.html" class="btn btn-primary mt-3">Go to Calendar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="images/unwatermarked_Gemini_Generated_Image_35vp5135vp5135vp.png" class="card-img-top" alt="Time Table">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Time Table</h5>
+                        <p class="card-text">Coming soon. Stay tuned for updates on our new scheduling tools.</p>
+                        <button class="btn btn-secondary mt-3" disabled>Wait For It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer text-center">
+    <div class="container">
+        <div class="mb-4">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contacts</a>
+            <a href="#">Works</a>
+        </div>
+        <p class="mb-0">© Copyright 2030 Quick Quiz - All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
